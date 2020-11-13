@@ -1,0 +1,39 @@
+.box{
+  background-color: teal;
+  text-align: center;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+
+}
+
+button{
+padding: 10px 10px;
+background-color: white;
+color: black;
+border: 2px solid gray;
+border-radius: 50px;
+font-size: 14px;
+position: fixed;
+left: 650px;
+top: 300px;
+transition-duration: 0.2s;
+}
+
+button:hover{
+  background-color: #94ecff;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+  left: 150px;
+  top: 200px;
+  padding: 1px, 1px;
+  border: 2px solid black;
+  width: 200px;
+  background-color: white;
+  border-radius: 30px;
+}
