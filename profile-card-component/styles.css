@@ -1,0 +1,43 @@
+body {
+    background-image: url("/home/nick/Documents/JS-mini-projects/profile-card-component/design/desktop-design.jpg");
+}
+
+.container {
+    position: absolute;
+    top: 54%;
+    left: 52.55%;
+    transform: translate(-50%, -50%);    
+    min-width: 19.8em;
+    min-height: 21em;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.cover {
+    background-color: rgb(105, 185, 223);
+    width: 22em;
+    height: 8.55em;
+    position: absolute;
+    top: 18.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px 15px 0px 0px;
+    z-index : 1;
+}
+
+.profile-image {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    z-index: 2;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+.stats {
+    display: flex;
+    
+}
