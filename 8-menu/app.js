@@ -91,8 +91,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
 function diplayMenuItems(menuItems) {
   let displayMenu = menuItems.map(function (item) {
-    // console.log(item);
-
     return `<article class="menu-item">
           <img src=${item.img} alt=${item.title} class="photo" />
           <div class="item-info">
@@ -106,10 +104,8 @@ function diplayMenuItems(menuItems) {
           </div>
         </article>`;
   });
-  displayMenu = displayMenu.join("");
-  // console.log(displayMenu);
-
-  sectionCenter.innerHTML = displayMenu;
+displayMenu = displayMenu.join("");
+sectionCenter.innerHTML = displayMenu;
 }
 
 function displayMenuButtons() {
@@ -119,10 +115,9 @@ function displayMenuButtons() {
         values.push(item.category);
       }
       return values;
-    },
-    ["all"]
-  );
-  const categoryBtns = categories
+    },["all"]);
+  
+    const categoryBtns = categories
     .map(function (category) {
       return `<button type="button" class="filter-btn" data-id=${category}>
           ${category}
