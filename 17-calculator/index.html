@@ -3,44 +3,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" class="input" id="input">
-        <div class="buttons">
-            <div class="operators">
-                <div>+</div>
-                <div>-</div>
-                <div>&times;</div>
-                <div>&divide;</div>
+    <div class="calc-box">
+        <form>
+            <div class="field">
+                <p class="control">
+                    <input type="text" class="input is-small" placeholder="0">
+                </p>
             </div>
-            <div class="leftPanel">
-                <div class="numbers">
-                    <div>7</div>
-                    <div>8</div>
-                    <div>9</div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-primary">
+                        1
+                    </button>
                 </div>
-                <div class="numbers">
-                    <div>4</div>
-                    <div>5</div>
-                    <div>6</div>
+                <div class="control">
+                    <button class="button is-primary">
+                        2
+                    </button>
                 </div>
-                <div class="numbers">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
+                <div class="control">
+                    <button class="button is-primary">
+                        3
+                    </button>
                 </div>
-                <div class="numbers">
-                    <div>0</div>
-                    <div>.</div>
-                    <div id="clear">C</div>
+                <div class="control">
+                    <button class="button is-primary">
+                        +
+                    </button>
                 </div>
             </div>
-            <button class="equal" id="result">=</button>
-        </div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-primary">
+                        4
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">
+                        5
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">
+                        6
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">
+                        -
+                    </button>
+                </div>
+            </div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-primary">
+                        7
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">
+                        8
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">
+                        9
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">
+                        %
+                    </button>
+                </div>
+            </div>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-primary">
+                        0
+                    </button>
+                </div>
+                
+                <div class="control">
+                    <button class="button is-primary">
+                        .
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">
+                        =
+                    </button>
+                </div>
+                <div class="control">
+                    <button class="button is-primary">
+                        x
+                    </button>
+                </div>
+            </div>     
+        </form>
     </div>
+    
 </body>
 </html>
